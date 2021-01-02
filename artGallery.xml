@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<artlist>
+  <artType name="Paintings">
+    <sales>
+      <article>The Depths</article>
+      <price>600</price>
+    </sales>
+    <sales onSale="true">
+      <article>Forest Fusion</article>
+      <price>500</price>
+    </sales>
+    <sales onSale="true">
+      <article>Overhang</article>
+      <price>250</price>
+    </sales>
+  </artType>
+  <artType name="Prints">
+    <sales onSale="true">
+      <article>Poolbeg Lighthouse, Dublin, Ireland</article>
+      <price>18</price>
+    </sales>
+    <sales>
+      <article>Add A Splash Of Colour To Your Life</article>
+      <price>20</price>
+    </sales>
+    <sales>
+      <article>First Date – Strandhill Sligo</article>
+      <price>25</price>
+    </sales>
+  </artType>
+  <artType name="Photos">
+    <sales>
+      <article>Through the Jameson Glass</article>
+      <price>25</price>
+    </sales>
+    <sales onSale="true">
+      <article>Wicklow Brick Mountain</article>
+      <price>25</price>
+    </sales>
+    <sales>
+      <article>Newry Gagarin over Dublin</article>
+      <price>100</price>
+    </sales>
+  </artType>
+  <artType name="Frames">
+    <sales>
+      <article>Black - A4 - Portrait</article>
+      <price>20</price>
+    </sales>
+    <sales>
+      <article>White - A4 - Landscape</article>
+      <price>20</price>
+    </sales>
+    <sales onSale="true">
+      <article>Black - A4 - Square</article>
+      <price>15</price>
+    </sales>
+  </artType>
+</artlist>

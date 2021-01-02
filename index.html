@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="Valentina Quiroga" content="INSPIRO" />
+    <meta name="CA 1 Interactive Web Application" content="Mockup Art Gallery" />
+    <!-- Document title -->
+    <title>Valentina Art Gallery</title>
+    <!-- Stylesheets & Fonts -->
+    <link
+        href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,800,700,600|Montserrat:400,500,600,700|Raleway:100,300,600,700,800"
+        rel="stylesheet" type="text/css" />
+    <link href="css/plugins.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link rel="icon" href="images/angle-up-solid.svg/is?v=1.0" />
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/artGallery.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <!--HEADER-->
+        <header id="header" class="header-transparent header-fullwidth header-plain dark">
+            <div id="header-wrap">
+                <div class="container">
+                    <!--Logo-->
+                    <div id="logo">
+                        <a href="index.html" class="logo" data-dark-logo="images/logo.png">
+                            <img src="images/logo-dark.png" alt="Art gallery Logo" />
+                        </a>
+                    </div>
+                    <!--End: Logo-->
+
+                    <!--Navigation Resposnive Trigger-->
+                    <div id="mainMenu-trigger">
+                        <button class="lines-button x">
+                            <span class="lines"></span>
+                        </button>
+                    </div>
+                    <!--end: Navigation Resposnive Trigger-->
+
+                    <!--Navigation-->
+                    <div id="mainMenu" class="light">
+                        <div class="container">
+                            <nav>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="dropdown"><a href="#">Gallery</a></li>
+                                    <li class="dropdown mega-menu-item">
+                                        <a href="#">Shop</a>
+                                        <ul class="dropdown-menu" style="
+                          background-image: url('images/shortcode-megamenu-bg.png');
+                        ">
+                                            <li class="mega-menu-content">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <ul>
+                                                            <li>
+                                                                <a href="shortcode-testimonial.html">
+                                                                    Paintings</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="shortcode-toggles.html"> Prints</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="shortcode-typography.html">
+                                                                    Photos</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="shortcode-text-rotator.html">
+                                                                    Frames<span class="label label-default">NEW</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!--end: Navigation-->
+                </div>
+            </div>
+        </header>
+        <!--END: HEADER-->
+
+        <!-- SECTION IMAGE FULLSCREEN -->
+        <section class="parallax fullscreen homePic" style="
+          background: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pdfemalenudebatch2-150-gloy.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f2f2946693065cf25c2d9ca5259e12be');
+        ">
+            <div class="container container-fullscreen text-center">
+                <div class="text-middle">
+                    <h1 class="text-uppercase text-large text-light">
+                        CREATIVE DUBLIN ART
+                    </h1>
+                    <p class="lead text-light">
+                        Beautiful art pieces are now on sale! Ready to be part of your
+                        home
+                    </p>
+                    <a class="btn btn-light btn-outline" href="index.html">Buy NOW</a>
+                </div>
+            </div>
+        </section>
+        <!-- end: SECTION IMAGE FULLSCREEN -->
+
+        <!-- PORTFOLIO -->
+        <section id="section2">
+            <div class="container">
+                <!-- Portfolio Filter -->
+                <nav class="grid-filter gf-outline" data-layout="#portfolio">
+                    <ul>
+                        <li class="active"><a href="#" data-category="*">Show All</a></li>
+                        <li>
+                            <a href="#" data-category=".pf-illustrations">Paintings</a>
+                        </li>
+                        <li>
+                            <a href="#" data-category=".pf-uielements">Prints</a>
+                        </li>
+                        <li><a href="#" data-category=".pf-media">Photos</a></li>
+                        <li><a href="#" data-category=".pf-graphics">Frames</a></li>
+                    </ul>
+                    <div class="grid-active-title">Show All</div>
+                </nav>
+                <!-- end: Portfolio Filter -->
+
+                <!-- Portfolio -->
+                <div id="portfolio" class="grid-layout portfolio-3-columns" data-margin="0">
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom pf-illustrations">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img
+                                        src="https://jamartfactory.com/wp-content/uploads/2013/03/mark-haybyrne-art-the-depths-450x640.jpg"
+                                        alt="" /></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>The Depths</h3>
+                                    <span>Mark Haybyrne</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: portfolio item -->
+
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom pf-illustrations">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img
+                                        src="https://jamartfactory.com/wp-content/uploads/2014/09/mark-haybyrne-Forest-Fusion.jpg"
+                                        alt="" /></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>Forest Fusion</h3>
+                                    <span>Mark Haybyrne</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: portfolio item -->
+
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom pf-illustrations">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img
+                                        src="https://jamartfactory.com/wp-content/uploads/2014/09/mark-haybyrne-overhang.jpg"
+                                        alt="" /></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>Overhang</h3>
+                                    <span>Mark Haybyrne</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: portfolio item -->
+
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom pf-uielements">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img
+                                        src="https://jamartprints.com/wp-content/uploads/2016/03/poolbeg-lighthouse-dublin-jam-art-factory-donal-mangan-720x509.jpg"
+                                        alt="" /></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>Poolbeg Lighthouse, Dublin</h3>
+                                    <span>Donal Mangan</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: portfolio item -->
+
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom pf-uielements">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img
+                                        src="https://jamartprints.com/wp-content/uploads/2016/04/print-jam-art-illustration-Mark-Conlan-add-splash-colour-720x509.jpg"
+                                        alt="" /></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>Add A Splash Of Colour To Your Life</h3>
+                                    <span>Mark Conlan</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: portfolio item -->
+
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom pf-uielements">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img src="images/art/img1.jpg" alt="" /></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>First Date – Strandhill Sligo</h3>
+                                    <span>Gary Reddin</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: portfolio item -->
+
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom pf-media">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img
+                                        src="https://jamartprints.com/wp-content/uploads/2013/09/renee-summers-through-the-jameson-glass-720x540.jpg"
+                                        alt="" /></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>Through the Jameson Glass</h3>
+                                    <span>Renee Summers</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: portfolio item -->
+
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom pf-media">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img
+                                        src="https://jamartprints.com/wp-content/uploads/2013/09/renee-summers-wicklow-brick-mountain-720x484.jpg"
+                                        alt="" /></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>Wicklow Brick Mountain</h3>
+                                    <span>Renee Summers</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: portfolio item -->
+
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom pf-media">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img
+                                        src="https://jamartprints.com/wp-content/uploads/2013/09/sean_hillen-irelantis_gagarin_over_dublin.jpg"
+                                        alt="" /></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>Newry Gagarin over Dublin</h3>
+                                    <span>Sean Hillen</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: portfolio item -->
+
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom pf-graphics">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img src="images/art/img2.jpg" alt="" /></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>Portrait</h3>
+                                    <span>Black - A4</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: portfolio item -->
+
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom pf-graphics">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img src="images/art/img3.jpg" alt="" /></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>Landscape</h3>
+                                    <span>White - A4</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: portfolio item -->
+
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom pf-graphics">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img src="images/art/img4.jpg" alt="" /></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>Square</h3>
+                                    <span>Black - A4</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: portfolio item -->
+                </div>
+                <!-- end: Portfolio -->
+            </div>
+        </section>
+        <!-- end: PORTFOLIO -->
+
+        <!-- Shop products -->
+        <section>
+            <div class="container">
+                <div class="heading m-b-40">
+                    <h4>Featured ART</h4>
+                    <h5>Paintings</h5>
+                </div>
+
+                <!--Product list-->
+                <div class="shop">
+                    <div class="row">
+                        <!--Product list i-->
+                        <div class="col-md-3">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img class="imagen-producto" alt="Shop product image!"
+                                            src="https://jamartfactory.com/wp-content/uploads/2013/03/mark-haybyrne-art-the-depths-450x640.jpg" />
+                                    </a>
+                                    <span class="product-new">NEW</span>
+                                    <span class="product-wishlist">
+                                        <a href="#"><i class="fa fa-heart"></i></a>
+                                    </span>
+                                </div>
+
+                                <div class="product-description">
+                                    <div class="product-category">Painting</div>
+                                    <div class="product-title">
+                                        <h3><a href="#">The Depths</a></h3>
+                                    </div>
+                                    <div class="product-price"><ins>‎€600</ins></div>
+                                    <div class="product-rate">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                    <div class="product-reviews">
+                                        <a href="#">6 customer reviews</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: i products -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Shop products -->
+
+         <!-- CLASS CODE -->
+
+
+
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="mt-5">Shopping</h1>
+                <p class="lead">Select your articles from the table below</p>
+            </div>
+            <div id="results" class="col-lg-8 order-2 mb-5"></div>
+            <div class="col-lg-4 order-1">
+                <form enctype="application/json" action="/post/json" method="post">
+                    <div class="form-group">
+                        <select class="form-control" name="sec_n">
+                            <option value="0">Paintings</option>
+                            <option value="1">Prints</option>
+                            <option value="2">Photos</option>
+                            <option value="3">Frames</option>
+                        </select>
+                        <input class="form-control mt-3" type="text" name="article" placeholder="Art Piece">
+                        <input class="form-control mt-3" type="text" name="price" placeholder="Price">
+                        <button type="submit" class="btn btn-primary btn-block mt-3">Submit</button>
+                    </div>
+                </form>
+                <button id="delete" class="btn btn-danger btn-block mt-3">Delete</button>
+                <p class="text-muted text-center">To delete an article, click the required row first</p>
+                <form>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">&euro;</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Total" name="txtBillAmt">
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <input type="checkbox" id="showVeg" aria-label="Checkbox for following text input">
+                            </div>
+                        </div>
+                        <input class="btn btn-block btn-secondary mt-2" type="button" name="btnCalcBill"
+                            value="Calculate Bill" id="calcBill">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div> 
+
+
+</html>
+
+
+          <!-- End CLASS CODE -->
+
+        <!-- Footer -->
+        <footer id="footer" class="footer-light">
+            <div class="footer-content">
+                <div class="container">
+                    <!-- Footer widget area 1 -->
+                    <div class="row">
+                        <div class="text-center">
+                            <img class="logo-footer" src="images/logo-footer.png" alt="Art gallery Logo" />
+                        </div>
+                        <ul class="list-icon">
+                            <li>
+                                <i class="fa fa-map-marker"></i> 795 Temple Bar Avenue
+                                <br />Dublin, D02 KA02
+                            </li>
+                            <li><i class="fa fa-phone"></i> (01) 672 5286</li>
+                            <li>
+                                <i class="fa fa-envelope"></i>
+                                <a href="mailto:vArtGallery@artGallery.com">vArtGallery@artGallery.com</a>
+                            </li>
+                            <li>
+                                <br /><i class="fa fa-clock-o"></i>Monday - Friday:
+                                <strong>08:00 - 22:00</strong> <br />Saturday, Sunday:
+                                <strong>Closed</strong>
+                            </li>
+                        </ul>
+                        <!-- Social icons -->                        
+                        <div class="text-center social-icons social-icons-border logo-footer">
+                            <ul>
+                                <li class="social-rss">
+                                    <a href="#"><i class="fa fa-rss"></i></a>
+                                </li>
+                                <li class="social-facebook">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li class="social-twitter">
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li class="social-vimeo">
+                                    <a href="#"><i class="fa fa-vimeo"></i></a>
+                                </li>
+                                <li class="social-youtube">
+                                    <a href="#"><i class="fa fa-youtube"></i></a>
+                                </li>
+                                <li class="social-pinterest">
+                                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                                </li>
+                                <li class="social-gplus">
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- end: Social icons -->
+                    </div>
+                    <!-- end: Footer widget area 1 -->
+
+                </div>
+            </div>
+    </div>
+    <div class="copyright-content">
+        <div class="container">
+            <div class="copyright-text text-center">
+                &copy; 2021 Valentina Quiroga - Web Interactive Aplications - CCT College
+            </div>
+        </div>
+    </div>
+    </footer>
+    <!-- end: Footer -->
+    </div>
+    <!-- end: Wrapper -->
+
+    <!-- Go to top button -->
+
+    <a id="goToTop"><i class="fa fa-angle-up top-icon"></i><span class="fas fa-angle-up"></span></a>
+    <!--Plugins-->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+
+    <!--Template functions-->
+    <script src="js/functions.js"></script>
+
+      <!-- Bootstrap core JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/table.js"></script>
+    <script src="js/artGallery.js"></script>
+    <script>
+        window.addEventListener("load", function() {
+            document.forms[1].txtBillAmt.value = calculateBill('menuTable');
+            document.querySelector("#calcBill").addEventListener("click", function() {
+                document.forms[1].txtBillAmt.value = calculateBill('menuTable');
+            });
+            document.querySelector("#showVeg").addEventListener("click", function() {
+                highlightonSale('menuTable', this.checked);
+            });
+        });
+    </script>
+</body>
+
+</html>
