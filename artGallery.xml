@@ -5,7 +5,7 @@
       <article>The Depths</article>
       <price>600</price>
     </sales>
-    <sales onSale="true">
+    <sales>
       <article>Forest Fusion</article>
       <price>500</price>
     </sales>

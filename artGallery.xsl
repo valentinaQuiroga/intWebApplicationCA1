@@ -4,7 +4,7 @@
         <table id="menuTable" border="1" class="indent">
             <thead>
                 <tr>
-                    <th colspan="3">Valentina Art Gallery</th>
+                    <th colspan="3">Art Gallery</th>
                 </tr>
                 <tr>
                     <th>Select</th>
@@ -13,7 +13,7 @@
                 </tr>
             </thead>
             <tbody>
-                <xsl:for-each select="/artlist/artType">
+                <xsl:for-each select="artlist/artType">
                     <tr>
                         <td colspan="3">
                             <xsl:value-of select="@name" />

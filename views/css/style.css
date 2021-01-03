@@ -10893,9 +10893,7 @@ form .btn {
   color: #444;
   cursor: pointer;
   display: inline-block;
-  margin-top: 8px;
-  margin-bottom: 4px;
-  text-transform: uppercase;
+  margin: 8px;
   font-size: 13px;
 }
 
@@ -17678,4 +17676,8 @@ body.device-xs .col-md-3 .flickr-widget img {
 
 .logo-footer {
   padding: 3%;
+}
+
+.checkbox{
+    margin: 1% !important;
 }
