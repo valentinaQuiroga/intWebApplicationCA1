@@ -1,4 +1,21 @@
 <!DOCTYPE html>
+<!-- /***************************************************************************************
+ *    Title: <Core Version of the XML, XSL, and Table seen in class >
+ *    Author: <Mikhail Timofeev>
+ *    Date: <November/December 2020>
+ *    Code version: <1>
+ *    Availability: <https://github.com/mikhail-cct/xml-bootcamp/>
+ *
+ ***************************************************************************************/ -->
+<!-- /***************************************************************************************
+ *    Title: <Polo Templates>
+ *    Author: <Polo>
+ *    Date: <2017 POLO -  Responsive Multi-Purpose HTML5 Template. All Rights Reserved>
+ *    Code version: <1>
+ *    Availability: <https://themeforest.net/item/polo-responsive-multipurpose-html5-template/13708923>
+ *
+ ***************************************************************************************/ -->
+
 <html lang="en">
 
 <head>
@@ -353,62 +370,65 @@
             <div class="container">
                 <div class="heading m-b-40">
                     <h4>Featured ART</h4>
-                    <h5>Paintings</h5>
-                </div>
+                    <div class="text-centre">
+                    <div class="product-title" id='showCD'></div><br>
+                    <input type="button" onclick="previous()" value="<<">
+                    <input type="button" onclick="next()" value=">>">
+                    </div>
+                    <div>
+                        <!--Product list-->
+                        <div class="shop">
+                            <div class="row">
 
-                <!--Product list-->
-                <div class="shop">
-                    <div class="row">
-                        <!--Product list i-->
-                        <div class="col-md-3">
-                            <div class="product">
-                                <div class="product-image">
-                                    <a href="#">
-                                        <img class="imagen-producto" alt="Shop product image!"
-                                            src="https://jamartfactory.com/wp-content/uploads/2013/03/mark-haybyrne-art-the-depths-450x640.jpg" />
-                                    </a>
-                                    <span class="product-new">NEW</span>
-                                    <span class="product-wishlist">
-                                        <a href="#"><i class="fa fa-heart"></i></a>
-                                    </span>
-                                </div>
 
-                                <div class="product-description">
-                                    <div class="product-category">Painting</div>
-                                    <div class="product-title">
-                                        <h3><a href="#">The Depths</a></h3>
-                                    </div>
-                                    <div class="product-price"><ins>‎€600</ins></div>
-                                    <div class="product-rate">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star-half-o"></i>
-                                    </div>
-                                    <div class="product-reviews">
-                                        <a href="#">6 customer reviews</a>
+                                <!--Product list i-->
+                                <div class="col-md-3">
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <a href="#">
+                                                <img class="imagen-producto" alt="Shop product image!"
+                                                    src="https://jamartfactory.com/wp-content/uploads/2013/03/mark-haybyrne-art-the-depths-450x640.jpg" />
+                                            </a>
+                                            <span class="product-new">NEW</span>
+                                            <span class="product-wishlist">
+                                                <a href="#"><i class="fa fa-heart"></i></a>
+                                            </span>
+                                        </div>
+
+                                        <div class="product-description">
+                                            <div class="product-category">Painting</div>
+                                            <div class="product-title">
+                                                <h3><a href="#">The Depths</a></h3>
+                                            </div>
+                                            <div class="product-price"><ins>‎€600</ins></div>
+                                            <div class="product-rate">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-half-o"></i>
+                                            </div>
+                                            <div class="product-reviews">
+                                                <a href="#">6 customer reviews</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
+                                <!-- end: i products -->
+
                             </div>
                         </div>
-                        <!-- end: i products -->
                     </div>
-                </div>
-            </div>
+                </div>    
         </section>
         <!-- end: Shop products -->
 
         <!-- CLASS CODE -->
-
-
-
-
         <!-- Page Content -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1 class="mt-5">Catalog</h1>
+                    <h1 class="mt-5">Catalogue</h1>
                     <p class="lead">Articles available in the table below</p>
                 </div>
                 <div id="results" class="col-lg-8 order-2 mb-5"></div>
@@ -425,10 +445,8 @@
 
                             <input type="text" class="form-control mt-3" name="article" id="validationDefault01"
                                 placeholder="Art Piece" required>
-                            <input type="text" class="form-control mt-3 floatNumber" name="price" id="validationDefault01"
-                                placeholder="Price" required>
-
-                        
+                            <input type="text" class="form-control mt-3 floatNumber" name="price"
+                                id="validationDefault01" placeholder="Price" required>
 
                             <button type="submit" class="btn btn-outline-success btn-block mt-3">Submit NEW Art</button>
                         </div>
@@ -437,7 +455,8 @@
                     <p class="text-muted text-center">To delete an article, click the required row first</p>
                     <form>
                         <div class="input-group-text">
-                            <input type="checkbox" class="checkbox" id="showVeg" aria-label="Checkbox for following text input">
+                            <input type="checkbox" class="checkbox" id="showVeg"
+                                aria-label="Checkbox for following text input">
                             <label>Highlight ON SALE items</label>
                         </div>
                         <br>
@@ -457,15 +476,9 @@
             </div>
         </div>
 
-
 </html>
 
-
 <!-- End CLASS CODE -->
-
-<div id='showCD'></div><br>
-<input type="button" onclick="previous()" value="<<">
-<input type="button" onclick="next()" value=">>">
 
 <!-- Footer -->
 <footer id="footer" class="footer-light">
@@ -585,9 +598,9 @@
         var xmlDoc = xml.responseXML;
         x = xmlDoc.getElementsByTagName("sales");
         document.getElementById("showCD").innerHTML =
-            "Artist: " +
+            "Art Piece: " +
             x[i].getElementsByTagName("article")[0].childNodes[0].nodeValue +
-            "<br>Title: " +
+            "<br>Price: €" +
             x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue;
     }
 
@@ -606,9 +619,9 @@
     }
 
     //integer value validation
-$('input.floatNumber').on('input', function() {
-    this.value = this.value.replace(/[^0-9.]/g,'').replace(/(\..*)\./g, '$1');
-});
+    $('input.floatNumber').on('input', function () {
+        this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');
+    });
 </script>
 </body>
 
