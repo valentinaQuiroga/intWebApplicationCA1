@@ -28,7 +28,20 @@
       <price>25</price>
     </sales>
   </artType>
-  <artType name="Photos"/>
+  <artType name="Photos">
+    <sales>
+      <article>Through the Jameson Glass</article>
+      <price>25</price>
+    </sales>
+    <sales onSale="true">
+      <article>Wicklow Brick Mountain</article>
+      <price>25</price>
+    </sales>
+    <sales>
+      <article>Newry Gagarin over Dublin</article>
+      <price>100</price>
+    </sales>
+  </artType>
   <artType name="Frames">
     <sales>
       <article>Black - A4 - Portrait</article>

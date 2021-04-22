@@ -1,0 +1,38 @@
+{
+  "name": "intwebapplicationca1",
+  "version": "1.0.0",
+  "description": "CA2",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "del": "^6.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "mongoose": "^5.12.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "path": "^0.12.7",
+    "xml2js": "^0.4.23",
+    "xslt-processor": "^0.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valentinaQuiroga/intWebApplicationCA1.git"
+  },
+  "author": "Valentina Quiroga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valentinaQuiroga/intWebApplicationCA1/issues"
+  },
+  "homepage": "https://github.com/valentinaQuiroga/intWebApplicationCA1#readme"
+}
